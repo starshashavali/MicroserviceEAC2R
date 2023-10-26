@@ -1,0 +1,16 @@
+package com.tcs.config;
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+	
+/*	@Bean
+	public RouteLocator getRoute(RouteLocatorBuilder build) {
+
+
+		return build.routes()
+			      .route("stockservice", r->r.path("/stockrest/**").uri("lb://STOCK-REST-API")) //static routing
+			      .route("calculateservice", r->r.path("/calcy/**").uri("lb://CALCULATE-PRICE-API")) //dynamic routing
+			      .build();		
+
+	}*/
+
+}

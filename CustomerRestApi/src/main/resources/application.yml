@@ -1,0 +1,7 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: customerrestapi
+  config:
+    import: optional:configserver:http://localhost:8999

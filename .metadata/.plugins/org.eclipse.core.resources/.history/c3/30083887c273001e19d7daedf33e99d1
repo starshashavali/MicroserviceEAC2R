@@ -1,0 +1,12 @@
+ package com.tcs.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.tcs.service.ICustomerService;
+
+@Service
+public class ICustomerServiceImpl implements ICustomerService{
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.tcs.dto;
+
+public class CustomerDTO {
+
+}

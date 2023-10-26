@@ -1,0 +1,5 @@
+package com.tcs.domain;
+
+public class Bank {
+
+}

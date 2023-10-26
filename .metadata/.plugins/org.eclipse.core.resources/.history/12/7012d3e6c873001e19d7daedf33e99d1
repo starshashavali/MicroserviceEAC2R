@@ -1,0 +1,18 @@
+package com.tcs.config;
+
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+
+@org.springframework.context.annotation.Configuration
+public class Configuration {
+	public RouteLocator getRoute(RouteLocatorBuilder builder) {
+		
+		return builder.routes().
+				route("BANKRESTAPI",r->r.path("/bank/**")
+				.uri("lb://BankRESTAPI"))
+				.route("CUSTOMERRESTAPI",r->r.path("/customer/**")
+						.uri("lb://CustomerRestApi"))
+				.build();
+	}
+	
+}

@@ -1,0 +1,31 @@
+ package com.tcs.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.dto.CustomerDTO;
+import com.tcs.repo.CustomerRepo;
+import com.tcs.service.ICustomerService;
+
+@Service
+public class ICustomerServiceImpl implements ICustomerService{
+
+	
+	@Autowired
+	CustomerRepo customerRepo;
+	
+	@Override
+	public String saveCustomer(CustomerDTO dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomerDTO getCustomerById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

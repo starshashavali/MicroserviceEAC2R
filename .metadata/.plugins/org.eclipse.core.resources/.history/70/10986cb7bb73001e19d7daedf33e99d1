@@ -1,0 +1,15 @@
+package com.tcs.dto;
+
+import lombok.Data;
+
+@Data
+public class BankDTO {
+	private Integer  bankId;
+	
+	private String bankName;
+	
+	private String bankIfscCode;
+	
+	private String  bankAddress;
+
+}

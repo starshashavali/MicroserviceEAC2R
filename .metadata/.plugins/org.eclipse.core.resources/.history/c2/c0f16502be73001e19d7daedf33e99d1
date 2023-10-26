@@ -1,0 +1,29 @@
+package com.tcs.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tcs.dto.BankDTO;
+import com.tcs.repo.BankRepo;
+import com.tcs.service.IBankService;
+
+@Service
+public class IBankServiceImpl implements IBankService {
+
+	@Autowired
+	private BankRepo bankRepo;
+	
+	@Override
+	public String saveBank(BankDTO bankDto) {
+		
+		
+		return null;
+	}
+
+	@Override
+	public BankDTO getByBankId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

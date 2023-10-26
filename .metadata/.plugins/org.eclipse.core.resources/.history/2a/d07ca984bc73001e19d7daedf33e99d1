@@ -1,0 +1,9 @@
+package com.tcs.service;
+
+import com.tcs.dto.BankDTO;
+
+public interface BankService {
+	
+	pubic String  saveBank(BankDTO bankDto);
+
+}
